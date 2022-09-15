@@ -21,7 +21,7 @@ function AxiosPractice() {
                 <p>Names:{x.name}</p>
                 <p>Username:{x.username}</p>
                 <p>Email:{x.email}</p>
-                <p>Physical Adress:{x.address.street}</p>
+                <p className="text-lime-700">Physical Adress:{x.address.street}</p>
                 <p>Location:{x.address.geo.lat}</p>
                 <p>Contact number:{x.phone}</p>
                 <p>Website:{x.website}</p>
